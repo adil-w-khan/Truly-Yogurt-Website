@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, MapPin, Phone, Mail, Clock, Instagram, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 const Footer = () => {
   const scrollToSection = (sectionId) => {

@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, MapPin, Phone, Mail, Clock, Instagram, ChevronLeft, ChevronRight } from 'lucide-react';
 
 // About Section Component
 const About = () => {

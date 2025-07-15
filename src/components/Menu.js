@@ -1,5 +1,3 @@
-import React from 'react';
-import { Menu, X, MapPin, Phone, Mail, Clock, Instagram, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const bubbleFruitTeaFlavors = [
   "Acai Berry", "Blueberry", "Cherry", "Grapefruit", "Guava", "Green Apple", "Mulberry", "Orange", "Papaya", "Passionfruit", "Pina Colada", "Peach", "Honey Ginger", "Pineapple", "Honey Lemon", "Pomegranate", "Honeydew", "Rose", "Kiwi", "Raspberry", "Lemon", "Strawberry", "Lavender", "Lychee", "White Peach", "Mango"

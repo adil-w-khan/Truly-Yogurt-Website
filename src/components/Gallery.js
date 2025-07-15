@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import img1 from '../images/TrulyYogurts_BrownCaramel.jpg';
 import img2 from '../images/TrulyYogurts_CocoMangoDeluxe.jpg';

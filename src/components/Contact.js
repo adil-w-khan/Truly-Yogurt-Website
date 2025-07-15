@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 // Contact Section Component
