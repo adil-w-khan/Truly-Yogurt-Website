@@ -43,6 +43,7 @@ const Updates = () => {
             style={{
               backgroundImage: `url(${updates[currentIndex].image})`
             }}
+            loading="lazy"
           >
             <div className="bg-black bg-opacity-40 p-6 rounded-lg">
               <h3 className="text-2xl font-bold mb-2">{updates[currentIndex].title}</h3>

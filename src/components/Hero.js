@@ -11,6 +11,7 @@ const Hero = () => {
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
       }}
+    loading="lazy"
     >
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>

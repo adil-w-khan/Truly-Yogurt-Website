@@ -47,6 +47,7 @@ const Gallery = () => {
                 src={src}
                 alt={`Gallery Item ${index + 1}`}
                 className="object-cover w-full h-74"
+                loading='lazy'
               />
               <div className="bg-orange-100 py-2 text-center text-sm font-medium text-gray-800">
                 {name}
