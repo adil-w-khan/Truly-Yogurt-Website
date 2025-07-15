@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
         {/* Logo and Brand */}
         <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-lg flex items-center justify-center overflow-hidden">
+            <div className="w-12 h-12 bg-gradient-to-r from-amber-400 to-yellow-400 rounded-lg flex items-center justify-center overflow-hidden">
                 <img
                     src={require('../images/truly-yogurt-logo.jpeg')}
                     alt="Truly Yogurt Logo"
@@ -43,7 +43,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-md text-gray-700 hover:text-orange-400 transition-colors"
+            className="md:hidden p-2 rounded-md text-gray-700 hover:text-sky-100 transition-colors"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -53,12 +53,12 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <button onClick={() => scrollToSection('hero')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-orange-500 transition-colors">Home</button>
-              <button onClick={() => scrollToSection('about')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-orange-500 transition-colors">About</button>
-              <button onClick={() => scrollToSection('menu')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-orange-500 transition-colors">Menu</button>
-              <button onClick={() => scrollToSection('gallery')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-orange-500 transition-colors">Gallery</button>
-              <button onClick={() => scrollToSection('reviews')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-orange-500 transition-colors">Reviews</button>
-              <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-orange-500 transition-colors">Contact</button>
+              <button onClick={() => scrollToSection('hero')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-amber-400 transition-colors">Home</button>
+              <button onClick={() => scrollToSection('about')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-amber-400 transition-colors">About</button>
+              <button onClick={() => scrollToSection('menu')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-amber-400 transition-colors">Menu</button>
+              <button onClick={() => scrollToSection('gallery')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-amber-400 transition-colors">Gallery</button>
+              <button onClick={() => scrollToSection('reviews')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-amber-400 transition-colors">Reviews</button>
+              <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-amber-400 transition-colors">Contact</button>
             </div>
           </div>
         )}

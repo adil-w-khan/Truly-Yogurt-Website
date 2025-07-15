@@ -1,16 +1,16 @@
 
 
-import img1 from '../images/TrulyYogurts_BrownCaramel.jpg';
-import img2 from '../images/TrulyYogurts_CocoMangoDeluxe.jpg';
-import img3 from '../images/TrulyYogurts_FeelingTarolfic.jpg';
-import img4 from '../images/TrulyYogurts_GreenAppleSlushy.jpg';
-import img5 from '../images/TrulyYogurts_MangoFruitTea.jpg';
-import img6 from '../images/TrulyYogurts_MangoPassionFruitSmoothie.jpg';
-import img7 from '../images/TrulyYogurts_MangoYogurtWithToppings.jpg';
-import img8 from '../images/TrulyYogurts_OreoBlast.jpg';
-import img9 from '../images/TrulyYogurts_StrawberryMilkTea.jpg';
-import img10 from '../images/TrulyYogurts_Taro.jpg';
-import img11 from '../images/TrulyYogurts_TwiceIceCreamWithTopings.jpg';
+import img1 from '../images/TrulyYogurts_BrownCaramel Large.jpeg';
+import img2 from '../images/TrulyYogurts_CocoMangoDeluxe Large.jpeg';
+import img3 from '../images/TrulyYogurts_FeelingTarolfic Large.jpeg';
+import img4 from '../images/TrulyYogurts_GreenAppleSlushy Large.jpeg';
+import img5 from '../images/TrulyYogurts_MangoFruitTea Large.jpeg';
+import img6 from '../images/TrulyYogurts_MangoPassionFruitSmoothie Large.jpeg';
+import img7 from '../images/TrulyYogurts_MangoYogurtWithToppings Large.jpeg';
+import img8 from '../images/TrulyYogurts_OreoBlast Large.jpeg';
+import img9 from '../images/TrulyYogurts_StrawberryMilkTea Large.jpeg';
+import img10 from '../images/TrulyYogurts_Taro Large.jpeg';
+import img11 from '../images/TrulyYogurts_TwiceIceCreamWithTopings Large.jpeg';
 
 const galleryImages = [
   { src: img1, name: 'Brown Caramel Milk Tea' },

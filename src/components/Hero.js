@@ -1,4 +1,4 @@
-import heroImage from '../images/TrulyYogurts_Hero.jpg';
+import heroImage from '../images/TrulyYogurts_Hero.jpeg';
 
 const Hero = () => {
   return (
@@ -9,9 +9,9 @@ const Hero = () => {
         backgroundImage: `${`url(${heroImage})`}`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
+        
       }}
-    loading="lazy"
+    
     >
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
