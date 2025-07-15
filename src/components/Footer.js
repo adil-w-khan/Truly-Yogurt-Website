@@ -49,7 +49,7 @@ return (
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
                     <div className="flex space-x-4">
-                        <a href="https://www.instagram.com/trulyyogurtnb?igsh=MTR4amtqNWp4cGhmcQ==" target="_blank" className="bg-gradient-to-r from-purple-500 to-pink-500 p-3 rounded-full hover:opacity-80 transition-opacity">
+                        <a href="https://www.instagram.com/trulyyogurtnb?igsh=MTR4amtqNWp4cGhmcQ==" target="_blank" rel="noreferrer" className="bg-gradient-to-r from-purple-500 to-pink-500 p-3 rounded-full hover:opacity-80 transition-opacity">
                             <Instagram size={24} />
                         </a>
                     </div>
@@ -60,7 +60,7 @@ return (
                 <p className="text-gray-400">
                     © 2025 Truly Yogurt. All rights reserved.
                     <br></br>
-                    <a href="https://www.linkedin.com/in/adil-w-khan" target="_blank" className="underline font-bold">Created by Adil Khan</a>
+                    <a href="https://www.linkedin.com/in/adil-w-khan" target="_blank" rel="noreferrer" className="underline font-bold">Created by Adil Khan</a>
                 </p>
             </div>
         </div>

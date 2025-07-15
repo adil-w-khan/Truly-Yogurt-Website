@@ -25,6 +25,7 @@ const About = () => {
                 href="https://www.doordash.com/store/truly-yogurts-new-brunswick-24390844/20027018/?rwg_token=ACgRB3eSInOyuIUqyzSon5RMDHDR3aBbHLxl7sDd5lVuHNFiyebo_zzceOI9eA8tD_7wrpmSL5OF751KhuSqocfKD7AWJagRag==&utm_campaign=gpa"
                 className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
                 target="_blank"
+                rel="noreferrer"
                 >
                 DoorDash
               </a>
@@ -32,6 +33,7 @@ const About = () => {
               href="https://www.ubereats.com/store/truly-yogurts/s9WS4V2ZU7uc-LPtkZ4iyg?srsltid=AfmBOorCStKyWGX9Ca0ehO8oF27vQmHxOoxt7JnRt-BymZv8Bd1ghqLz" 
               className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
                 target="_blank"
+                rel="noreferrer"
               >
                 Uber Eats
               </a>
@@ -39,6 +41,7 @@ const About = () => {
               href="https://www.grubhub.com/restaurant/truly-yogurt-38-easton-ave-new-brunswick/6905336" 
               className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
                target="_blank"
+               rel="noreferrer"
               >
                 GrubHub
               </a>
