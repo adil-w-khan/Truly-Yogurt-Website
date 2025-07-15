@@ -45,7 +45,7 @@ const Gallery = () => {
             >
               <img
                 src={src}
-                alt={`Gallery Image ${index + 1}`}
+                alt={`Gallery Item ${index + 1}`}
                 className="object-cover w-full h-74"
               />
               <div className="bg-orange-100 py-2 text-center text-sm font-medium text-gray-800">
