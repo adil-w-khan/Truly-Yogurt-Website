@@ -17,11 +17,11 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto ">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           Truly Yogurt
         </h1>
-        <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed bg-black bg-opacity-50">
           It's truly delicious!
           <br />
             Located in the heart of New Brunswick, just a 5-minute walk from The Yard!
