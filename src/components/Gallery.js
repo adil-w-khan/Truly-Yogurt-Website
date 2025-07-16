@@ -49,7 +49,7 @@ const Gallery = () => {
                 className="object-cover w-full h-74"
                 loading='lazy'
               />
-              <div className="bg-orange-100 py-2 text-center text-sm font-medium text-gray-800">
+              <div className="bg-sky-100 py-2 text-center text-sm font-medium text-gray-800">
                 {name}
               </div>
             </div>

@@ -28,36 +28,37 @@ const Updates = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const currentUpdate = updates[currentIndex];
+
   return (
     <section id="updates" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Latest News</h2>
           <div className="w-24 h-1 bg-amber-400 mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600">Stay updated with our newest flavors and announcements</p>
+          <p className="text-lg text-gray-600">Stay updated with our newest drinks, flavors, and announcements</p>
         </div>
 
         <div className="relative max-w-4xl mx-auto">
+          {/* Background Image */}
           <div
-            className="h-96 bg-contain bg-center rounded-lg shadow-lg flex items-center justify-center text-center text-white px-6"
-            style={{
-              backgroundImage: `url(${updates[currentIndex].image})`
-            }}
-            loading="lazy"
-          >
-            <div className="bg-black bg-opacity-40 p-6 rounded-lg">
-              <h3 className="text-2xl font-bold mb-2">{updates[currentIndex].title}</h3>
-              <p className="text-md leading-relaxed">{updates[currentIndex].description}</p>
-            </div>
+            className="h-72 md:h-96 bg-cover bg-center rounded-t-lg"
+            style={{ backgroundImage: `url(${currentUpdate.image})` }}
+          ></div>
+
+          {/* Text Card */}
+          <div className="bg-sky-100 text-gray-800 p-6 rounded-b-lg shadow-md text-center">
+            <h3 className="text-2xl font-bold mb-2">{currentUpdate.title}</h3>
+            <p className="text-md leading-relaxed">{currentUpdate.description}</p>
           </div>
 
+          {/* Navigation Arrows */}
           <button
             onClick={prev}
             className="absolute left-4 top-1/2 transform -translate-y-1/2 p-2 rounded-full bg-amber-400 text-white hover:bg-orange-500 transition-colors"
           >
             <ChevronLeft size={24} />
           </button>
-
           <button
             onClick={next}
             className="absolute right-4 top-1/2 transform -translate-y-1/2 p-2 rounded-full bg-amber-400 text-white hover:bg-orange-500 transition-colors"

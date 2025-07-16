@@ -16,14 +16,14 @@ return (
                 <div>
                     <div className="flex items-center space-x-3 mb-4">
                         
-                    <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-lg flex items-center justify-center overflow-hidden">
+                    <div className="w-12 h-12 bg-gradient-to-r from-amber-400 to-yellow-400 rounded-lg flex items-center justify-center overflow-hidden">
                             <img
                                     src={require('../images/truly-yogurt-logo.jpeg')}
                                     alt="Truly Yogurt Logo"
                                     className="w-full h-full object-cover"
                             />
                     </div>
-                        <span className="text-xl font-bold text-amber-400">Truly Yogurt</span>
+                        <span className="text-2xl font-bold text-amber-400" style={{ fontFamily: 'Chewy, cursive' }}>Truly Yogurt</span>
                     </div>
                     <p className="text-gray-400 leading-relaxed">
                         It's Truly Delicious!
@@ -37,6 +37,7 @@ return (
                     <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
                     <ul className="space-y-2">
                         <li><button onClick={() => scrollToSection('hero')} className="text-gray-400 hover:text-amber-400 transition-colors">Home</button></li>
+                        <li><button onClick={() => scrollToSection('updates')} className="text-gray-400 hover:text-amber-400 transition-colors">News</button></li>
                         <li><button onClick={() => scrollToSection('about')} className="text-gray-400 hover:text-amber-400 transition-colors">About</button></li>
                         <li><button onClick={() => scrollToSection('menu')} className="text-gray-400 hover:text-amber-400 transition-colors">Menu</button></li>
                         <li><button onClick={() => scrollToSection('gallery')} className="text-gray-400 hover:text-amber-400 transition-colors">Gallery</button></li>
