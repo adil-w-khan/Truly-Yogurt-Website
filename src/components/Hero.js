@@ -22,7 +22,7 @@ const Hero = () => {
           Truly Yogurt
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed bg-black bg-opacity-50">
-          It's truly delicious!
+          It's Truly Delicious!
           <br />
             Located in the heart of New Brunswick, just a 5-minute walk from The Yard!
         </p>
