@@ -4,11 +4,19 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 // News updates array (easy to add/remove/edit posts)
 const updates = [
   {
+    title: "Try Our New Biscoff Smoothie!",
+    description: "Perfect Treat for a Summer Day! It's Truly Delicious!",
+    image: require('../images/ty_biscoff_smoothie.jpeg'),
+    bgSize: 'bg-contain bg-no-repeat'
+  },
+  {
     title: "Check Out Our Backyard Seating!",
     description: "Just walk through the green door in the back to enjoy our new outdoor seating area. Perfect for a summer day!",
-    image: require('../images/TY_Backyard.jpeg')
+    image: require('../images/TY_Backyard.jpeg'),
+    bgSize: 'bg-cover'
   }
 ];
+
 
 const Updates = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -42,7 +50,7 @@ const Updates = () => {
         <div className="relative max-w-4xl mx-auto">
           {/* Background Image */}
           <div
-            className="h-72 md:h-96 bg-cover bg-center rounded-t-lg"
+            className={`h-72 md:h-96 bg-center rounded-t-lg ${currentUpdate.bgSize}`}
             style={{ backgroundImage: `url(${currentUpdate.image})` }}
           ></div>
 
