@@ -18,7 +18,7 @@ const smoothieFlavors = [
 ];
 
 const smoothieOTMFlavors = [
-    "Birthday Cake", "Brown Sugar", "Cheese Cake", "CoCo Mango", "Feeling Taro-ific", "M&M Crunch", "Nutella", "Oreo Blast", "Over the Rainbow", "Scarlett Night", "Strawberry Delexe", "Vanilla Berry", "World Cup"
+    "Birthday Cake", "Biscoff Smoothie", "Brown Sugar", "Cheese Cake", "CoCo Mango", "Feeling Taro-ific", "M&M Crunch", "Nutella", "Oreo Blast", "Over the Rainbow", "Scarlett Night", "Strawberry Delexe", "Vanilla Berry", "World Cup"
 ];
 
 const FlavorSection = ({ title, items }) => (
